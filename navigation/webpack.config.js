@@ -4,7 +4,7 @@ const singleSpaDefaults = require("webpack-config-single-spa-react-ts");
 module.exports = (webpackConfigEnv, argv) => {
   const defaultConfig = singleSpaDefaults({
     orgName: "pankajpatil",
-    projectName: "layout",
+    projectName: "navigation",
     webpackConfigEnv,
     argv,
     outputSystemJS: false,

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  cursor: pointer;
+}
+
+.navbar-left .site-name {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.navbar-right .menu-item {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.navbar-right .menu-item:hover {
+  text-decoration: underline;
+}

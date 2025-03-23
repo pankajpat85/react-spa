@@ -1,7 +1,7 @@
 {
-  "name": "@pankajpatil/layout",
+  "name": "@pankajpatil/navigation",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --port=4200",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
@@ -53,9 +53,9 @@
     "@types/jest": "^27.0.1",
     "@types/systemjs": "^6.1.1",
     "@types/webpack-env": "^1.16.2",
-    "single-spa": "^6.0.3",
+    "single-spa": "^5.9.3",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0"
   },
-  "types": "dist/pankajpatil-layout.d.ts"
+  "types": "dist/pankajpatil-navigation.d.ts"
 }

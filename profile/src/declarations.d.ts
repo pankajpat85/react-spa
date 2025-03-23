@@ -38,4 +38,4 @@ declare module "*.svg" {
   export default src;
 }
 
-declare module "*";
+declare module "@pankajpatil/utility";
